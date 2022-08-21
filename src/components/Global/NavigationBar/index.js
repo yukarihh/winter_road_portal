@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Layout, Menu } from "antd";
-import { LogoutOutlined, MenuOutlined, UserOutlined } from "@ant-design/icons";
+import { MenuOutlined, UserOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 import NavbarLogo from "../../../assets/navbarLogo.png";
 import "./styles.css";
