@@ -60,7 +60,7 @@ const BackGroundImageOne = () => (
 );
 
 const CarouselHome = () => (
-  <Carousel className="imgContainer">
+  <Carousel className="imgContainer" style={{textAlign: "center"}}>
     <div>
       <div
         style={{
