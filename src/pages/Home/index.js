@@ -4,17 +4,19 @@ import TemplateBanner from "../../components/Home/TemlateBanner";
 import Feature from "../../components/Home/Feature";
 
 import bgImage from "../../assets/homebg_3.png";
+import firstBanner from "../../assets/firstBanner.png";
 import Partner from "../../components/Home/Partner";
 function Home() {
   const BannerContents = [
     {
       id: 1,
-      image: bgImage,
+      image: firstBanner,
       title: "Climate Change Impacts on Winter Roads and Trails",
       content:
         "Winter road networks are critical land transportation for remote Northern communities who rely on these networks for receiving essential goods and services during winter season. The public and private transportation sectors also rely on winter road networks for their operations. A warming climate has created a shorter winter road season, unreliable road conditions, and safety concerns. ",
       bgColor: "white",
     },
+
     {
       id: 2,
       image: bgImage,
@@ -26,7 +28,7 @@ function Home() {
     {
       id: 3,
       image: bgImage,
-      title: "Climate Change Impacts on Northern Communities ",
+      title: "Yukari ",
       content:
         "A shorter winter road season with less reliable winter road conditions has a substantial socio-economic impact on Northern communities, particularly for remote Indigenous communities. The lack of winter road access for these remote communities has important consequences from a socio-economic perspective, for example, an increase in price of goods and services, which are already expensive in the North. ",
       bgColor: "white",
@@ -75,6 +77,7 @@ function Home() {
       title: "University of Toronto Scarborough",
       url: "https://www.utoronto.ca/",
     },
+
     {
       id: 2,
       image: bgImage,
@@ -114,8 +117,8 @@ function Home() {
     {
       id: 8,
       image: bgImage,
-      title: "University of Toronto Scarborough",
-      url: "https://www.utoronto.ca/",
+      title: "Yukari",
+      url: "https://google.com",
     },
   ];
   return (

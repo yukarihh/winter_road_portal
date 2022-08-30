@@ -22,9 +22,7 @@ const PartnerItem = ({ props }) => {
         </div>
         <div className="partnerTitle">
           <a href={url} target="_blank" rel="noreferrer">
-            <Typography style={{ color: "#0E2959" }}>
-              Unversity of Toronto Scarborough
-            </Typography>
+            <Typography style={{ color: "#0E2959" }}>{title}</Typography>
           </a>
         </div>
       </div>
