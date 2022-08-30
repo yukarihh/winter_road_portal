@@ -10,12 +10,12 @@ import "./styles.css";
 const Feature = ({ props }) => {
   return (
     <div className="featurePage">
-      <Typography className="feturePageTitleText">Feature</Typography>
+      <Typography className="featurePageTitleText">Feature</Typography>
       <div className="featureOverallContainer">
-        <FeatureItem props={props} />
-        <FeatureItem props={props} />
-        <FeatureItem props={props} />
-        <FeatureItem props={props} />
+      {props.map((content) => (
+        <FeatureItem key={content.id} props={content} />
+      ))}
+
       </div>
     </div>
   );

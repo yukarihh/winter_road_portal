@@ -3,7 +3,7 @@
 .featureItemContainer {
   display: flex;
   background-color: white;
-  height: 80vh;
+  height: 40vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;

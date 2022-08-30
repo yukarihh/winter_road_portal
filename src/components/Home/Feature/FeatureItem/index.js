@@ -3,7 +3,6 @@ import { Grid, Layout, Menu, Typography } from "antd";
 import { Link } from "react-router-dom";
 
 import { MenuOutlined } from "@ant-design/icons";
-import titleImage from "../../../../assets/homebg_3.png";
 import "./styles.css";
 
 const FeatureItem = ({ props }) => {

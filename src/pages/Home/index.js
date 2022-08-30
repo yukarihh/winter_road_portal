@@ -4,8 +4,9 @@ import TemplateBanner from "../../components/Home/TemlateBanner";
 import Feature from "../../components/Home/Feature";
 
 import bgImage from "../../assets/homebg_3.png";
+import Partner from "../../components/Home/Partner";
 function Home() {
-  const contents = [
+  const BannerContents = [
     {
       id: 1,
       image: bgImage,
@@ -31,16 +32,103 @@ function Home() {
       bgColor: "white",
     },
   ];
+
+  const FeatureContents = [
+    {
+      id: 1,
+      image: bgImage,
+      title: "Climate Change Impacts on Winter Roads and Trails",
+      content:
+        " Our portal is also linked to the Winter Road and Trail Watch app that is a monitoring tool for tracking changes on the winter road and trail conditions. ",
+      bgColor: "white",
+    },
+    {
+      id: 2,
+      image: bgImage,
+      title: "Climate Change Impacts on Winter Roads and Trails",
+      content:
+        " Our portal is also linked to the Winter Road and Trail Watch app that is a monitoring tool for tracking changes on the winter road and trail conditions. ",
+      bgColor: "white",
+    },
+    {
+      id: 3,
+      image: bgImage,
+      title: "Climate Change Impacts on Winter Roads and Trails",
+      content:
+        " Our portal is also linked to the Winter Road and Trail Watch app that is a monitoring tool for tracking changes on the winter road and trail conditions. ",
+      bgColor: "white",
+    },
+    {
+      id: 4,
+      image: bgImage,
+      title: "Climate Change Impacts on Winter Roads and Trails",
+      content:
+        " Our portal is also linked to the Winter Road and Trail Watch app that is a monitoring tool for tracking changes on the winter road and trail conditions. ",
+      bgColor: "white",
+    },
+  ];
+
+  const PartnerContents = [
+    {
+      id: 1,
+      image: bgImage,
+      title: "University of Toronto Scarborough",
+      url: "https://www.utoronto.ca/",
+    },
+    {
+      id: 2,
+      image: bgImage,
+      title: "University of Toronto Scarborough",
+      url: "https://www.utoronto.ca/",
+    },
+    {
+      id: 3,
+      image: bgImage,
+      title: "University of Toronto Scarborough",
+      url: "https://www.utoronto.ca/",
+    },
+    {
+      id: 4,
+      image: bgImage,
+      title: "University of Toronto Scarborough",
+      url: "https://www.utoronto.ca/",
+    },
+    {
+      id: 5,
+      image: bgImage,
+      title: "University of Toronto Scarborough",
+      url: "https://www.utoronto.ca/",
+    },
+    {
+      id: 6,
+      image: bgImage,
+      title: "University of Toronto Scarborough",
+      url: "https://www.utoronto.ca/",
+    },
+    {
+      id: 7,
+      image: bgImage,
+      title: "University of Toronto Scarborough",
+      url: "https://www.utoronto.ca/",
+    },
+    {
+      id: 8,
+      image: bgImage,
+      title: "University of Toronto Scarborough",
+      url: "https://www.utoronto.ca/",
+    },
+  ];
   return (
     <div>
       <CarouselHome />
       <WelcomeBanner />
 
       {/* This is used to loop through all the content item in the contents, and generate banners */}
-      {contents.map((content) => (
+      {BannerContents.map((content) => (
         <TemplateBanner key={content.id} props={content} />
       ))}
-      <Feature props={contents[0]} />
+      <Feature props={FeatureContents} />
+      <Partner props={PartnerContents} />
     </div>
   );
 }
