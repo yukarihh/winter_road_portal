@@ -1,6 +1,7 @@
 import CarouselHome from "../../components/CarouselHome";
 import WelcomeBanner from "../../components/Home/WelcomeBanner";
 import TemplateBanner from "../../components/Home/TemlateBanner";
+import Feature from "../../components/Home/Feature";
 
 import bgImage from "../../assets/homebg_3.png";
 function Home() {
@@ -39,6 +40,7 @@ function Home() {
       {contents.map((content) => (
         <TemplateBanner key={content.id} props={content} />
       ))}
+      <Feature props={contents[0]} />
     </div>
   );
 }
