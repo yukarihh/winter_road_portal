@@ -6,6 +6,7 @@ import Feature from "../../components/Home/Feature";
 import bgImage from "../../assets/homebg_3.png";
 import firstBanner from "../../assets/firstBanner.png";
 import Partner from "../../components/Home/Partner";
+import Footer from "../../components/Global/Footer";
 function Home() {
   const BannerContents = [
     {
@@ -132,6 +133,7 @@ function Home() {
       ))}
       <Feature props={FeatureContents} />
       <Partner props={PartnerContents} />
+      <Footer />
     </div>
   );
 }
