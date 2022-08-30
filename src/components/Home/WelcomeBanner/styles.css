@@ -5,7 +5,7 @@
 
     display: flex;
     background-color: #F7FAEF;
-    height: 50vh;
+    height: 70vh;
     flex-direction: column;
     align-content: space-around;
     align-items: center;
@@ -13,8 +13,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    background-origin: content-box;
-    padding: 10px;
+
 }
 
 
