@@ -133,7 +133,6 @@ function Home() {
       ))}
       <Feature props={FeatureContents} />
       <Partner props={PartnerContents} />
-      <Footer />
     </div>
   );
 }

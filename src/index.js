@@ -7,6 +7,7 @@ import "antd/dist/antd.min.css";
 import "antd/dist/antd.variable.min.css";
 import NavigationBar from "./components/Global/NavigationBar";
 import Home from "./pages/Home";
+import Footer from "./components/Global/Footer";
 ReactDOM.render(
   <div>
     <Router>
@@ -14,6 +15,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<Home />} exact />
       </Routes>
+      <Footer />
     </Router>
   </div>,
   document.getElementById("root")
