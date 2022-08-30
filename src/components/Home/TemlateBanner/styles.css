@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 
-.firstBannerContainer {
+.templateBannerContainer {
   display: flex;
   background-color: white;
   height: 80vh;
@@ -11,20 +11,20 @@
 
 }
 
-.firstBannerImage {
+.templateBannerImage {
   width: 200px;
   height: 200px;
   border-radius: 100px;
 }
 
-.firstBannerTitle {
+.templateBannerTitle {
   font-size: 2rem;
   font-family: "Abel", sans-serif;
   margin-top: 20px;
   color: #0e2959;
 }
 
-.firstBannerText {
+.templateBannerText {
   font-family: "Abel", sans-serif;
   width: 40%;
   text-align: left;
@@ -33,6 +33,6 @@
   padding-bottom: 30px;
 }
 
-.firstBannerImageContainer {
+.templateBannerImageContainer {
   padding-top: 0px;
 }
