@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.coverBannerContainer
+{
+
+    display: flex;
+    background-color: #F7FAEF;
+    height: 45vh;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+    justify-content: flex-end;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.coverBannerTitle{
+    font-family: 'Abel', sans-serif;
+    font-size: 7vh;
+    color: #F7FAEF;
+    text-align: left;
+    padding-right: 160px;
+}
+
+.coverBannerText
+{
+    width: 40%;
+    text-align: left;
+}
