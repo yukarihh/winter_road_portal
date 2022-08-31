@@ -9,12 +9,10 @@ const leftItems = [];
 const rightItems = [
   { name: "Home", link: "/" },
   { name: "Map", link: "https://ececourses.ece.utoronto.ca", newTab: true },
-  {
-    name: "Observation",
-    link: "https://ececourses.ece.utoronto.ca",
-    newTab: true,
-  },
-  { name: "About", link: "/About" },
+  { name: "Projects", link: "/projects" },
+  { name: "Observation", link: "/observation" },
+  { name: "About", link: "/about" },
+
   { name: "", link: "/login", icon: <UserOutlined style={{ fontSize: 20 }} /> },
 ];
 
