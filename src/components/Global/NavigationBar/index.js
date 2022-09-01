@@ -11,6 +11,7 @@ const rightItems = [
   { name: "Map", link: "https://ececourses.ece.utoronto.ca", newTab: true },
   { name: "Projects", link: "/projects" },
   { name: "Observation", link: "/observation" },
+  { name: "Transportation", link: "/transportation" },
   { name: "About", link: "/about" },
 
   { name: "", link: "/login", icon: <UserOutlined style={{ fontSize: 20 }} /> },
