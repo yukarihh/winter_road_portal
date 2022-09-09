@@ -76,7 +76,7 @@ function Home() {
       id: 1,
       image: bgImage,
       title: "University of Toronto Scarborough",
-      url: "https://www.utoronto.ca/",
+      url: "https://www.utsc.utoronto.ca/",
     },
 
     {
