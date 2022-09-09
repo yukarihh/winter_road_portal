@@ -100,8 +100,8 @@ function Home() {
     {
       id: 5,
       image: bgImage,
-      title: "University of Toronto Scarborough",
-      url: "https://www.utoronto.ca/",
+      title: "GNWT/GTNO Infrastructure",
+      url: "https://www.inf.gov.nt.ca/en",
     },
     {
       id: 6,
