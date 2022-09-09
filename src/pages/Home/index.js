@@ -106,8 +106,8 @@ function Home() {
     {
       id: 6,
       image: bgImage,
-      title: "University of Toronto Scarborough",
-      url: "https://www.utoronto.ca/",
+      title: "National Research Council Canada",
+      url: "https://nrc.canada.ca/en",
     },
     {
       id: 7,
