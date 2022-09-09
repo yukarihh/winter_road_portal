@@ -94,8 +94,8 @@ function Home() {
     {
       id: 4,
       image: bgImage,
-      title: "University of Toronto Scarborough",
-      url: "https://www.utoronto.ca/",
+      title: "Transport Canada",
+      url: "https://tc.canada.ca/en",
     },
     {
       id: 5,
