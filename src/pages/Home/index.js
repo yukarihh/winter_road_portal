@@ -88,8 +88,8 @@ function Home() {
     {
       id: 3,
       image: bgImage,
-      title: "University of Toronto Scarborough",
-      url: "https://www.utoronto.ca/",
+      title: "University of Alberta",
+      url: "https://www.ualberta.ca/",
     },
     {
       id: 4,
