@@ -42,31 +42,31 @@ function Home() {
       image: bgImage,
       title: "Interactive Map",
       content:
-        " Our portal is also linked to the Winter Road and Trail Watch app that is a monitoring tool for tracking changes on the winter road and trail conditions. ",
+        "Where are winter roads and trails? How are winter roads affected by climate change? Our interactive map will allow you to explore Northern transportation networks, climate change impact assessment data, and socio-economic information. ",
       bgColor: "white",
     },
     {
       id: 2,
       image: bgImage,
-      title: "Climate Change Impacts on Winter Roads and Trails",
+      title: "Northern Transportation Network Database",
       content:
-        " Our portal is also linked to the Winter Road and Trail Watch app that is a monitoring tool for tracking changes on the winter road and trail conditions. ",
+        "We host Northern transportation related data as mush as possible. TBA",
       bgColor: "white",
     },
     {
       id: 3,
       image: bgImage,
-      title: "Climate Change Impacts on Winter Roads and Trails",
+      title: "Winter Road and Trail Watch",
       content:
-        " Our portal is also linked to the Winter Road and Trail Watch app that is a monitoring tool for tracking changes on the winter road and trail conditions. ",
+        "Our portal is also linked to the Winter Road and Trail Watch app that is a monitoring tool for tracking changes on the winter road and trail conditions.",
       bgColor: "white",
     },
     {
       id: 4,
       image: bgImage,
-      title: "Climate Change Impacts on Winter Roads and Trails",
+      title: "Winter Road Profile",
       content:
-        " Our portal is also linked to the Winter Road and Trail Watch app that is a monitoring tool for tracking changes on the winter road and trail conditions. ",
+        "All winter roads have a unique feature. Learn more about each winter road network and how climate change has been impacting them.",
       bgColor: "white",
     },
   ];
