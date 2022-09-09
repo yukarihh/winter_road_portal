@@ -112,8 +112,8 @@ function Home() {
     {
       id: 7,
       image: bgImage,
-      title: "University of Toronto Scarborough",
-      url: "https://www.utoronto.ca/",
+      title: "Crown-Indigenous Relations and Northern Affairs Canada",
+      url: "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs.html",
     },
     {
       id: 8,
