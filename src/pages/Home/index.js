@@ -118,7 +118,7 @@ function Home() {
     {
       id: 8,
       image: bgImage,
-      title: "Yukari",
+      title: "TBA",
       url: "https://google.com",
     },
   ];
