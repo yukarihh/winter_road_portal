@@ -29,7 +29,7 @@ function Home() {
     {
       id: 3,
       image: bgImage,
-      title: "Yukari ",
+      title: "Climate Change Impacts on Northern Communities ",
       content:
         "A shorter winter road season with less reliable winter road conditions has a substantial socio-economic impact on Northern communities, particularly for remote Indigenous communities. The lack of winter road access for these remote communities has important consequences from a socio-economic perspective, for example, an increase in price of goods and services, which are already expensive in the North. ",
       bgColor: "white",
