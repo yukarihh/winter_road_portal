@@ -21,7 +21,7 @@ function Home() {
     {
       id: 2,
       image: bgImage,
-      title: "Climate Change Impacts on Northern Transportation Networks ",
+      title: "Climate Change Impacts on Northern Transportation Networks",
       content:
         "In the North, winter roads provide relatively inexpensive overland connection to the all-season road network, which in turn connects from remote to larger communities and the rest of Canada, much passenger and freight movements for remote Northern communities and resource sites occur during the winter road season. Climate change is impacting the surface quality of the winter roads, seasonal lengths, and freight schedule such as the movements of goods and services. ",
       bgColor: "#F7FAEF",
@@ -29,7 +29,7 @@ function Home() {
     {
       id: 3,
       image: bgImage,
-      title: "Climate Change Impacts on Northern Communities ",
+      title: "Climate Change Impacts on Northern Communities",
       content:
         "A shorter winter road season with less reliable winter road conditions has a substantial socio-economic impact on Northern communities, particularly for remote Indigenous communities. The lack of winter road access for these remote communities has important consequences from a socio-economic perspective, for example, an increase in price of goods and services, which are already expensive in the North. ",
       bgColor: "white",
@@ -40,7 +40,7 @@ function Home() {
     {
       id: 1,
       image: bgImage,
-      title: "Climate Change Impacts on Winter Roads and Trails",
+      title: "Interactive Map",
       content:
         " Our portal is also linked to the Winter Road and Trail Watch app that is a monitoring tool for tracking changes on the winter road and trail conditions. ",
       bgColor: "white",
