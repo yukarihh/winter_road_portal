@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+.teamMemberContainer {
+  display: flex;
+  height: 30vh;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.teamMemberImage {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  justify-content: c;
+}
+
+.teamMemberTitle {
+  font-size: 2rem;
+  font-family: "Abel", sans-serif;
+  margin-top: 20px;
+  color: #0e2959;
+}
+
+.teamMemberText {
+  font-family: "Abel", sans-serif;
+  text-align: left;
+  font-size: 1rem;
+
+}
+
+.teamMemberImageContainer {
+  padding-top: 0px;
+}
+
+.teamMemberTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teamMemberEmailImage {
+    width: 20px;
+    height: 20px;
+  }

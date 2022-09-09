@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+.subSectionBannerContainer {
+  display: flex;
+  height: 40vh;
+  background-color: white;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.subSectionBannerImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+
+}
+
+.subSectionBannerTitle {
+  font-size: 2rem;
+  font-family: "Abel", sans-serif;
+  margin-top: 20px;
+  color: #0e2959;
+}
+
+.subSectionBannerText {
+  font-family: "Abel", sans-serif;
+  width: 40%;
+  text-align: left;
+  font-size: 1rem;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.subSectionBannerImageContainer {
+  padding-top: 0px;
+}
+
+.subSectionBannerTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

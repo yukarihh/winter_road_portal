@@ -8,13 +8,12 @@ import "./styles.css";
 const leftItems = [];
 const rightItems = [
   { name: "Home", link: "/" },
-  { name: "Map", link: "https://ececourses.ece.utoronto.ca", newTab: true },
-  {
-    name: "Observation",
-    link: "https://ececourses.ece.utoronto.ca",
-    newTab: true,
-  },
-  { name: "About", link: "/About" },
+  { name: "Map", link: "https://climatechange.utsc.utoronto.ca/esri_leaflet/map.html", newTab: true },
+  { name: "Projects", link: "/projects" },
+  { name: "Observation", link: "/observation" },
+  { name: "Transportation", link: "/transportation" },
+  { name: "About", link: "/about" },
+
   { name: "", link: "/login", icon: <UserOutlined style={{ fontSize: 20 }} /> },
 ];
 

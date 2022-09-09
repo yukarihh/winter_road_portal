@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+.featureOverallContainer {
+
+  display: flex;
+  height: 60vh;
+}
+
+.featurePage {
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+.featurePageTitleText {
+  font-size: 3rem;
+  font-family: "Abel", sans-serif;
+  color: #0e2959;
+}
