@@ -8,7 +8,7 @@ function Transportation() {
     {
       id: 1,
       image: bgImage,
-      title: "Here are the data collected",
+      title: "Northern Transportation Network Database",
       content: "Feel free to export the data to Excel format ",
       bgColor: "white",
     },
