@@ -9,7 +9,7 @@ function Observation() {
     {
       id: 1,
       image: bgImage,
-      title: "Thank you for contributing to a better North",
+      title: "Welcome to the Winter Road and Trail Watch!",
       content: "Feel free to export the data to Excel format ",
       bgColor: "white",
     },
