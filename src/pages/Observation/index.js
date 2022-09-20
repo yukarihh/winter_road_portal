@@ -21,7 +21,7 @@ function Observation() {
       <div className="observationIframeContainer">
         <iframe
           className="observationIframe"
-          src="https://survey123.arcgis.com/share/b0133ca727c249c1825e1c637298be74"
+          src="https://arcg.is/0rOGWD"
         ></iframe>
       </div>
     </div>
