@@ -1,42 +1,75 @@
 
 
 import bgImage from "../../assets/homebg_3.png";
+import yukari from "../../assets/Yukari.png";
+import leo from "../../assets/Leo.png";
 import CoverBanner from "../../components/Global/CoverBanner";
 import Team from "../../components/Team";
 function About() {
-    const BannerContents = [
+  const TeamMemberInfo = [[
+    {
+      id: 1,
+      image: bgImage,
+      name: "Dr. William A. Gough",
+      title: "Professor",
+      email: "leeoo.li@mail.utoronto.ca"
+
+    },
+    {
+        id: 2,
+        image: yukari,
+        name: "Yukari Hori",
+        title: "Research Associate and Project Manager",
+        email: "y.hori@utoronto.ca"
+
+      },
+      {
+        id: 3,
+        image: bgImage,
+        name: "Leo HC Li",
+        title: "Founder & CEO",
+        email: "leeoo.li@mail.utoronto.ca"
+
+      },
+      {
+        id: 4,
+        image: leo,
+        name: "Leo HC Li",
+        title: "Founder & CEO",
+        email: "leeoo.li@mail.utoronto.ca"
+
+      }], [
         {
           id: 1,
           image: bgImage,
-          title: "Climate Change Impacts on Winter Roads and Trails",
-          content:
-            "Winter road networks are critical land transportation for remote Northern communities who rely on these networks for receiving essential goods and services during winter season. The public and private transportation sectors also rely on winter road networks for their operations. A warming climate has created a shorter winter road season, unreliable road conditions, and safety concerns. ",
-          bgColor: "white",
-        },
+          name: "Dr. Amy Kim",
+          title: "Professor",
+          email: "leeoo.li@mail.utoronto.ca"
     
-        {
-          id: 2,
-          image: bgImage,
-          title: "Climate Change Impacts on Northern Transportation Networks ",
-          content:
-            "In the North, winter roads provide relatively inexpensive overland connection to the all-season road network, which in turn connects from remote to larger communities and the rest of Canada, much passenger and freight movements for remote Northern communities and resource sites occur during the winter road season. Climate change is impacting the surface quality of the winter roads, seasonal lengths, and freight schedule such as the movements of goods and services. ",
-          bgColor: "#F7FAEF",
         },
         {
-          id: 3,
-          image: bgImage,
-          title: "Climate Change Impacts on Northern Communities ",
-          content:
-            "A shorter winter road season with less reliable winter road conditions has a substantial socio-economic impact on Northern communities, particularly for remote Indigenous communities. The lack of winter road access for these remote communities has important consequences from a socio-economic perspective, for example, an increase in price of goods and services, which are already expensive in the North. ",
-          bgColor: "white",
-        },
-        
-      ];
+            id: 2,
+            image: bgImage,
+            name: "Leo HC Li",
+            title: "Founder & CEO",
+            email: "leeoo.li@mail.utoronto.ca"
+    
+          },
+          {
+            id: 3,
+            image: bgImage,
+            name: "Leo HC Li",
+            title: "Founder & CEO",
+            email: "leeoo.li@mail.utoronto.ca"
+    
+          }]
+
+  ];
   return (
     <div>
       <CoverBanner title="About" />
-    <Team />
-    <Team />
+    <Team teamName={"University of Toronto Scarborough"} teamMemberInfo={TeamMemberInfo[0]} />
+    <Team teamName={"UBC"} teamMemberInfo={TeamMemberInfo[1]}/>
     </div>
   );
 }

@@ -5,6 +5,11 @@ import Feature from "../../components/Home/Feature";
 
 import bgImage from "../../assets/homebg_3.png";
 import firstBanner from "../../assets/firstBanner.png";
+import secondBanner from "../../assets/transportation.png";
+import firstfeatures from "../../assets/map_icon.png";
+
+import firstpartners from "../../assets/UTSC.png";
+
 import Partner from "../../components/Home/Partner";
 import Footer from "../../components/Global/Footer";
 function Home() {
@@ -20,7 +25,7 @@ function Home() {
 
     {
       id: 2,
-      image: bgImage,
+      image: secondBanner,
       title: "Climate Change Impacts on Northern Transportation Networks",
       content:
         "In the North, winter roads provide relatively inexpensive overland connection to the all-season road network, which in turn connects from remote to larger communities and the rest of Canada, much passenger and freight movements for remote Northern communities and resource sites occur during the winter road season. Climate change is impacting the surface quality of the winter roads, seasonal lengths, and freight schedule such as the movements of goods and services. ",
@@ -39,7 +44,7 @@ function Home() {
   const FeatureContents = [
     {
       id: 1,
-      image: bgImage,
+      image: firstfeatures,
       title: "Interactive Map",
       content:
         "Where are winter roads and trails? How are winter roads affected by climate change? Our interactive map will allow you to explore Northern transportation networks, climate change impact assessment data, and socio-economic information. ",
@@ -74,7 +79,7 @@ function Home() {
   const PartnerContents = [
     {
       id: 1,
-      image: bgImage,
+      image: firstpartners,
       title: "University of Toronto Scarborough",
       url: "https://www.utsc.utoronto.ca/",
     },

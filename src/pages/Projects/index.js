@@ -6,7 +6,7 @@ function Projects() {
     {
       id: 1,
       image: bgImage,
-      title: "Climate Change Impacts on Winter Roads and Trails",
+      title: "ssClimate Change Impacts on Winter Roads and Trails",
       content:
         "Winter road networks are critical land transportation for remote Northern communities who rely on these networks for receiving essential goods and services during winter season. The public and private transportation sectors also rely on winter road networks for their operations. A warming climate has created a shorter winter road season, unreliable road conditions, and safety concerns. ",
       bgColor: "white",
@@ -32,8 +32,12 @@ function Projects() {
   return (
     <div>
       <CoverBanner title="Projects" />
-      <ProjectBanner props={BannerContents[0]} />
-      <ProjectBanner props={BannerContents[0]} />
+
+      {BannerContents.map((content) => (
+        // <TemplateBanner key={content.id} props={content} />
+        <ProjectBanner  key={content.id} props={content} />
+      ))}
+
     </div>
   );
 }
