@@ -6,7 +6,11 @@ import Feature from "../../components/Home/Feature";
 import bgImage from "../../assets/homebg_3.png";
 import firstBanner from "../../assets/firstBanner.png";
 import secondBanner from "../../assets/transportation.png";
+import thirdBanner from "../../assets/northern_lights.png";
 import firstfeatures from "../../assets/map_icon.png";
+import secondFeatures from "../../assets/presentation_icon.png";
+import thirdFeatures from "../../assets/smartphone_icon.png";
+import fourthFeatures from "../../assets/ice_road_icon.png";
 
 import firstpartners from "../../assets/UTSC.png";
 
@@ -33,7 +37,7 @@ function Home() {
     },
     {
       id: 3,
-      image: bgImage,
+      image: thirdBanner,
       title: "Climate Change Impacts on Northern Communities",
       content:
         "A shorter winter road season with less reliable winter road conditions has a substantial socio-economic impact on Northern communities, particularly for remote Indigenous communities. The lack of winter road access for these remote communities has important consequences from a socio-economic perspective, for example, an increase in price of goods and services, which are already expensive in the North. ",
@@ -52,15 +56,15 @@ function Home() {
     },
     {
       id: 2,
-      image: bgImage,
-      title: "Northern Transportation Network Database",
+      image: secondFeatures,
+      title: "Northern Transportation Network",
       content:
         "We host Northern transportation related data as mush as possible. TBA",
       bgColor: "white",
     },
     {
       id: 3,
-      image: bgImage,
+      image: thirdFeatures,
       title: "Winter Road and Trail Watch",
       content:
         "Our portal is also linked to the Winter Road and Trail Watch app that is a monitoring tool for tracking changes on the winter road and trail conditions.",
@@ -68,7 +72,7 @@ function Home() {
     },
     {
       id: 4,
-      image: bgImage,
+      image: fourthFeatures,
       title: "Winter Road Profile",
       content:
         "All winter roads have a unique feature. Learn more about each winter road network and how climate change has been impacting them.",

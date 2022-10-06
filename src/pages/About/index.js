@@ -18,8 +18,8 @@ function About() {
     {
         id: 2,
         image: yukari,
-        name: "Yukari Hori",
-        title: "Research Associate and Project Manager",
+        name: "Dr. Yukari Hori",
+        title: "Research Associate, Project Manager",
         email: "y.hori@utoronto.ca"
 
       },
@@ -68,7 +68,7 @@ function About() {
   return (
     <div>
       <CoverBanner title="About" />
-    <Team teamName={"University of Toronto Scarborough"} teamMemberInfo={TeamMemberInfo[0]} />
+    <Team teamName={"University of Toronto Scarborough (UTSC)"} teamMemberInfo={TeamMemberInfo[0]} />
     <Team teamName={"UBC"} teamMemberInfo={TeamMemberInfo[1]}/>
     </div>
   );
