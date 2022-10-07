@@ -1,4 +1,5 @@
-import bgImage from "../../assets/homebg_3.png";
+import ObservationFirst from "../../assets/group_icon.png";
+
 import DataTable from "../../components/DataTable";
 import CoverBanner from "../../components/Global/CoverBanner";
 import ProjectBanner from "../../components/Projects/ProjectBanner";
@@ -8,7 +9,7 @@ function Observation() {
   const BannerContents = [
     {
       id: 1,
-      image: bgImage,
+      image: ObservationFirst,
       title: "Winter Road and Trail Watch",
       content: "Feel free to export the data to Excel format ",
       bgColor: "white",

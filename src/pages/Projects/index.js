@@ -1,4 +1,3 @@
-import bgImage from "../../assets/homebg_3.png";
 import ProjectFirst from "../../assets/smartphone_icon_colour.png";
 import ProjectSecond from "../../assets/online_survey_icon.png";
 import ProjectThird from "../../assets/ice_road_icon.png";
