@@ -7,12 +7,19 @@ import bgImage from "../../assets/homebg_3.png";
 import firstBanner from "../../assets/firstBanner.png";
 import secondBanner from "../../assets/transportation.png";
 import thirdBanner from "../../assets/northern_lights.png";
+
 import firstfeatures from "../../assets/map_icon.png";
 import secondFeatures from "../../assets/presentation_icon.png";
 import thirdFeatures from "../../assets/smartphone_icon.png";
 import fourthFeatures from "../../assets/ice_road_icon.png";
 
-import firstpartners from "../../assets/UTSC.png";
+import firstpartners from "../../assets/Transport_Canada.png";
+import secondPartners from "../../assets/UTSC.png";
+import thirdPartners from "../../assets/UBC.png";
+import fourthPartners from "../../assets/UofA.png";
+import fifthPartners from "../../assets/GNWT.gif";
+import sixthPartners from "../../assets/NRC.png";
+import seventhPartners from "../../assets/CIRNAC.jpg";
 
 import Partner from "../../components/Home/Partner";
 import Footer from "../../components/Global/Footer";
@@ -84,43 +91,43 @@ function Home() {
     {
       id: 1,
       image: firstpartners,
+      title: "Transport Canada",
+      url: "https://tc.canada.ca/en",
+    },
+    {
+      id: 2,
+      image: secondPartners,
       title: "University of Toronto Scarborough",
       url: "https://www.utsc.utoronto.ca/",
     },
 
     {
-      id: 2,
-      image: bgImage,
+      id: 3,
+      image: thirdPartners,
       title: "University of British Columbia",
       url: "https://www.ubc.ca/",
     },
     {
-      id: 3,
-      image: bgImage,
+      id: 4,
+      image: fourthPartners,
       title: "University of Alberta",
       url: "https://www.ualberta.ca/",
     },
     {
-      id: 4,
-      image: bgImage,
-      title: "Transport Canada",
-      url: "https://tc.canada.ca/en",
-    },
-    {
       id: 5,
-      image: bgImage,
+      image: fifthPartners,
       title: "GNWT/GTNO Infrastructure",
       url: "https://www.inf.gov.nt.ca/en",
     },
     {
       id: 6,
-      image: bgImage,
+      image: sixthPartners,
       title: "National Research Council Canada",
       url: "https://nrc.canada.ca/en",
     },
     {
       id: 7,
-      image: bgImage,
+      image: seventhPartners,
       title: "Crown-Indigenous Relations and Northern Affairs Canada",
       url: "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs.html",
     },
