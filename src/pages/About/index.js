@@ -1,23 +1,26 @@
-
-
 import bgImage from "../../assets/homebg_3.png";
-import yukari from "../../assets/Yukari.png";
-import leo from "../../assets/Leo.png";
+import Bill from "../../assets/Bill.png";
+import Yukari from "../../assets/Yukari.png";
+import Len from "../../assets/Len.png";
+import Leo from "../../assets/Leo.png";
+import Haowen from "../../assets/Haowen.png";
+import Larissa from "../../assets/Larissa.png";
+import Amy from "../../assets/Amy.png";
 import CoverBanner from "../../components/Global/CoverBanner";
 import Team from "../../components/Team";
 function About() {
   const TeamMemberInfo = [[
     {
       id: 1,
-      image: bgImage,
+      image: Bill,
       name: "Dr. William A. Gough",
       title: "Professor",
-      email: "leeoo.li@mail.utoronto.ca"
+      email: "william.gough@utoronto.ca"
 
     },
     {
         id: 2,
-        image: yukari,
+        image: Yukari,
         name: "Dr. Yukari Hori",
         title: "Research Associate, Project Manager",
         email: "y.hori@utoronto.ca"
@@ -25,26 +28,40 @@ function About() {
       },
       {
         id: 3,
-        image: bgImage,
-        name: "Leo HC Li",
-        title: "Founder & CEO",
-        email: "leeoo.li@mail.utoronto.ca"
+        image: Len,
+        name: "Dr. Leonard J.S. Tsuji",
+        title: "Professor",
+        email: "leonard.tsuji@utoronto.ca"
 
       },
-      {
+       {
         id: 4,
-        image: leo,
+        image: Leo,
         name: "Leo HC Li",
-        title: "Founder & CEO",
+        title: "Computer Engineering Co-op Student, Web programmar",
         email: "leeoo.li@mail.utoronto.ca"
-
-      }], [
+       },
+        {
+        id: 5,
+        image: Haowen,
+        name: "Haowen Rui",
+        title: "Computer Science Co-op Student, Web programmar",
+        email: "anson.rui@mail.utoronto.ca"
+        },
+         {
+        id: 6,
+        image: Larissa,
+        name: "Larissa Pizzolato",
+        title: "PhD Student",
+        email: "larissa.pizzolato@mail.utoronto.ca"
+         }
+       ], [
         {
           id: 1,
-          image: bgImage,
-          name: "Dr. Amy Kim",
-          title: "Professor",
-          email: "leeoo.li@mail.utoronto.ca"
+          image: Amy,
+          name: "Dr. Amy M. Kim",
+          title: "Associate Professor",
+          email: "amykim@civil.ubc.ca"
     
         },
         {
@@ -69,7 +86,7 @@ function About() {
     <div>
       <CoverBanner title="About" />
     <Team teamName={"University of Toronto Scarborough (UTSC)"} teamMemberInfo={TeamMemberInfo[0]} />
-    <Team teamName={"UBC"} teamMemberInfo={TeamMemberInfo[1]}/>
+    <Team teamName={"University of British Columbia (UBC)"} teamMemberInfo={TeamMemberInfo[1]}/>
     </div>
   );
 }
